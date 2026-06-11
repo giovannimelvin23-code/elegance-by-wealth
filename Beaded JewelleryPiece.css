@@ -1,0 +1,148 @@
+body {
+  background-color: rgb(2, 4, 48);
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  width: 80%;
+
+  border: 1px solid gold;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 30px;
+  color: gold;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+hr {
+  width: 80%;
+  border: 1px solid gold;
+  margin: 20px auto; 
+}
+
+/* Navigation */
+
+nav {
+  position: absolute;
+  top: 100px;
+  right: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-left: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: gold;
+}
+
+/* Images */
+
+.piece {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin: 30px;
+  border: 3px solid gold;
+}
+
+.Happy {
+  width: 400px;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin: 30px;
+  border: 3px solid gold;
+}
+
+/* Videos */
+
+.video-piece,
+.Vid-Deli {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin: 30px;
+  border: 3px solid gold;
+}
+
+.Vid-Hap-Cus {
+  width: 400px;
+  height: 600px;       /* add this */
+  object-fit: cover;   /* add this for uniform cropping */
+  border-radius: 20px; /* optional: match consistency */
+  margin: 30px;
+  border: 3px solid gold;
+  display: inline-block;
+}
+
+p {
+  width: 80%;
+
+  margin: auto;
+
+  line-height: 2;
+
+  font-size: 20px;
+
+  background-color: rgb(255, 255, 255);
+
+  padding: 0px;
+
+  border-radius: 15px;
+}
+
+/* Footer */
+
+footer {
+  background-color: rgb(2, 4, 48);
+
+  text-align: center;
+
+  padding: 20px;
+  
+  margin-top: 50px;
+}
+
+.top-arrow {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: white;
+  color: rgb(2, 4, 48);
+  padding: 10px 15px;
+  border-radius: 30%;
+  text-decoration: none;
+  font-size: 30px;   
+  font-weight: bold;
+}
